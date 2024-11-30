@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/react_home/static/css/main.6084c610.css",
+    "main.js": "/react_home/static/js/main.4b54765b.js",
+    "static/media/음식DB.xlsx": "/react_home/static/media/음식DB.dec06335378a4945122e.xlsx",
+    "static/media/slider_bg01.jpg": "/react_home/static/media/slider_bg01.d2804d80bd7ec0b328ed.jpg",
+    "static/media/bin.jpg": "/react_home/static/media/bin.51bf57a120d899d3e98e.jpg",
+    "static/media/id6.jpg": "/react_home/static/media/id6.5b9743d72700099078b7.jpg",
+    "static/media/m.jpg": "/react_home/static/media/m.688150042a2a9f8c9450.jpg",
+    "static/media/id2.jpg": "/react_home/static/media/id2.306ce021cead9472be03.jpg",
+    "static/media/id4.jpg": "/react_home/static/media/id4.4d7eeac3b5c34be3aa0d.jpg",
+    "static/media/id1.jpg": "/react_home/static/media/id1.78cab7979b4932348417.jpg",
+    "static/media/dee.jpg": "/react_home/static/media/dee.866d484dad49991b04d4.jpg",
+    "static/media/id7.jpg": "/react_home/static/media/id7.0b26fac6fb904b78e3b4.jpg",
+    "static/media/id10.jpg": "/react_home/static/media/id10.f5858ae6a06d94e7c5e6.jpg",
+    "static/media/id11.jpg": "/react_home/static/media/id11.4887a25a595d9af7e122.jpg",
+    "static/media/id9.jpg": "/react_home/static/media/id9.7fc7d1b1524d113cb93f.jpg",
+    "static/media/yoo.jpg": "/react_home/static/media/yoo.bf6bd71c2465539c1620.jpg",
+    "static/media/goo2.jpg": "/react_home/static/media/goo2.09792daaf8594fdf238e.jpg",
+    "static/media/id8.jpg": "/react_home/static/media/id8.543b3ef008894530d032.jpg",
+    "static/media/id3.jpg": "/react_home/static/media/id3.46c393da69259dc72833.jpg",
+    "static/media/aju.jpg": "/react_home/static/media/aju.2e44961829bad9a2723a.jpg",
+    "static/media/gait.jpg": "/react_home/static/media/gait.3f263495a44d64530c21.jpg",
+    "static/media/id5.jpg": "/react_home/static/media/id5.3f263495a44d64530c21.jpg",
+    "static/media/ronfic.jpg": "/react_home/static/media/ronfic.5d4616740c6fb35046ea.jpg",
+    "static/media/dae.jpg": "/react_home/static/media/dae.a25d9506ed91659704e4.jpg",
+    "static/media/pro.jpg": "/react_home/static/media/pro.a6109101b1454a84fd7d.jpg",
+    "static/media/bumin.jpg": "/react_home/static/media/bumin.79900988589cac45fb56.jpg",
+    "static/media/exo.jpg": "/react_home/static/media/exo.904db3d045acf7abe253.jpg",
+    "static/media/clari.jpg": "/react_home/static/media/clari.62fad5159bdd109cdb8b.jpg",
+    "static/media/shin.jpg": "/react_home/static/media/shin.14a3b30fae007b7a3ae3.jpg",
+    "static/media/choi.jpg": "/react_home/static/media/choi.eb2be8e138bb0443d16f.jpg",
+    "static/media/slider_icon.svg": "/react_home/static/media/slider_icon.4468373632ec24056240.svg",
+    "index.html": "/react_home/index.html",
+    "main.6084c610.css.map": "/react_home/static/css/main.6084c610.css.map",
+    "main.4b54765b.js.map": "/react_home/static/js/main.4b54765b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6084c610.css",
+    "static/js/main.4b54765b.js"
+  ]
+}
