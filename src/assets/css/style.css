@@ -1,0 +1,420 @@
+/* header__inner */
+.header__inner {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    border-bottom: 1px solid #ccc;
+
+}
+.header__logo {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    width: 20%;
+}
+.header__logo em {
+    font-size: 18px;
+    font-weight: 400;
+}
+.header__menu {
+    width: 60%;
+    text-align: center;
+}
+.header__menu li {
+    display: inline;
+}
+.header__menu li a {
+    padding: 13px 30px;
+    margin: 0 5px;
+    transition: background-color 0.33s;
+}
+.header__menu li a:hover {
+    background-color: #F1F1F1;
+    border-radius: 5px;
+}
+.header__member {
+    width: 20%;
+    text-align: right;
+}
+.header__member a {
+    font-size: 16px;
+    border: 1px solid #000;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+
+/* slider */
+.slider {
+    position: relative;
+}
+.slider__img {
+    background: url(../img/slider_bg01.jpg) no-repeat center center / cover;
+}
+.slider__img .desc {
+    width: 1160px;
+    margin: 0 auto;
+    padding: 100px 20px;
+}
+.slider__img .desc span {
+    font-size: 16px;
+    background-color: #fff;
+    padding: 1px 14px 0 14px;
+    border-radius: 30px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.slider__img .desc h3 {
+    font-size: 110px;
+    font-weight: 300;
+    line-height: 1;
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    margin-left: -8px;
+}
+.slider__img .desc p {
+    font-size: 20px;
+    font-weight: 300;
+    color: #fff;
+    line-height: 1.35;
+    margin-bottom: 130px;
+}
+.slider__img .desc .btn a {
+    font-size: 16px;
+    background: #fff;
+    padding: 11px 50px;
+    display: inline-block;
+}
+.slider__img .desc .btn a.black {
+    background: #000;
+    color: #fff;
+}
+.slider__arrow a {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 30px;
+    height: 56px;
+    background-image: url(../img/slider_icon.svg);
+}
+.slider__arrow a.left {
+    left: 20px;
+}
+.slider__arrow a.right {
+    right: 20px;
+    background-position: -50px 0;
+}
+.slider__dot {
+    position: absolute;
+    left: 50%;
+    bottom: 25px;
+    transform: translateX(-50%);
+}
+.slider__dot a {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    background-image: url(../img/slider_icon.svg);
+    background-position: -20px -70px;
+}
+.slider__dot a.active {
+    background-position: 0px -70px;
+}
+.slider__dot a.play {
+    background-position: -40px -70px;
+}
+.slider__dot a.stop {
+    background-position: -60px -70px;
+}
+
+/* image__inner */
+.image__inner {
+    display: flex;
+    justify-content: center; /* 이미지와 텍스트가 항상 가운데 배치 */
+    align-items: center; /* 이미지와 텍스트를 수직 중앙 정렬 */
+    gap: 20px; /* 이미지 간의 간격 */
+    flex-wrap: wrap; /* 화면 크기가 줄어들면 이미지가 줄바꿈됨 */
+}
+
+#imageType {
+    margin: 20px 0; /* 페이지 위아래 여백 */
+    padding: 10px 0; /* 내부 위아래 여백 */
+    display: flex;
+    justify-content: center; /* 섹션을 가운데 정렬 */
+    align-items: center; /* 수직 중앙 정렬 */
+    flex-direction: column; /* 자식 요소들을 수직으로 배치 */
+}
+
+.image {
+    width: 49%; /* 두 개의 이미지를 나란히 배치 */
+    height: 330px; /* 이미지 높이 */
+    padding: 0;
+    box-sizing: border-box;
+    color: #fff;
+    position: relative;
+    background-size: cover; /* 배경 이미지 크기 조정 */
+    background-position: center; /* 배경 이미지 가운데 정렬 */
+    display: flex; /* 안의 텍스트를 정렬하기 위해 flexbox 사용 */
+    flex-direction: column; /* 텍스트를 위에서 아래로 배치 */
+    justify-content: center; /* 텍스트를 수직으로 가운데 정렬 */
+    align-items: center; /* 텍스트를 수평으로 가운데 정렬 */
+    text-align: center; /* 텍스트 가운데 정렬 */
+}
+
+.image.img1 {
+    background: url(../img/gait.jpg) no-repeat center / cover;
+}
+.image.img2 {
+    background: url(../img/m.jpg) no-repeat center / cover;
+}
+
+.image__title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.image__desc {
+    font-size: 16px;
+    line-height: 1.4;
+    font-weight: 300;
+    color: #666;
+    margin-top: 10px; /* 이미지와 텍스트 사이 간격 */
+    display: block;
+}
+
+.image__btn {
+    font-size: 16px;
+    font-weight: 300;
+    color: #fff;
+    background-color: #B45A30;
+    padding: 10px 20px;
+    display: inline-block;
+    margin-top: 20px; /* 텍스트와 버튼 사이 간격 */
+}
+
+.image__btn.yellow {
+    background-color: #B59140;
+}
+
+
+
+/* imgText__inner */
+.imgText__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.imgText__inner > div {
+    width: 32%;
+    height: 400px;
+}
+.imgText__txt .small {
+    font-size: 26px;
+    color: #666;
+    text-decoration: underline;
+    margin-bottom: 20px;
+    display: block;
+    text-align: left;
+}
+.imgText__txt .title {
+    font-size: 50px;
+    font-weight: 300;
+    word-break: keep-all;
+    line-height: 1.4;
+    margin-bottom: 20px;
+}
+.imgText__txt .desc {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    color: #666;
+    margin-bottom: 10px;
+}
+.imgText__txt .list {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+}
+.imgText__txt .list li {
+    position: relative;
+    padding-left: 20px;
+}
+.imgText__txt .list li::before {
+    content: '';
+    width: 5px;
+    height: 5px;
+    background: #666;
+    border-radius: 50%;
+    position: absolute;
+    left: 5px;
+    top: 9px;
+}
+.imgText__txt .list li a {
+    color: #666;
+}
+.imgText__img {
+    border-radius: 10px;
+    position: relative;
+}
+.imgText__img a {
+    background-color: #7C2B39;
+    color: #fff;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 30px;
+    display: inline-block;
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
+.imgText__img a.blue {
+    background-color: #2B387C;
+}
+
+
+
+
+
+/*}.imgText__img.img1 {
+    background: url(../img/imgText_bg01.jpg) no-repeat center / cover;
+}
+.imgText__img.img2 {
+    background: url(../img/imgText_bg02.jpg) no-repeat center / cover;
+}*/
+
+/* card__inner */
+.card__inner {
+    display: flex;
+    justify-content: space-between;
+}
+.card {
+    width: 32%;
+    background: #f5f5f5;
+}
+.card__body {
+    padding: 24px;
+}
+.card__body .tit {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+.card__body .desc {
+    font-size: 18px;
+    line-height: 1.4;
+    color: #666;
+    margin-bottom: 20px;
+    font-weight: 300;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+}
+.card__body .btn {
+    font-size: 16px;
+    color: #222;
+}
+
+.card--background {
+    background-color: #f9f9f9; /* Light gray background */
+    padding: 40px 20px; /* Add spacing inside the section */
+}
+
+/* text__inner */
+
+/* text__inner: 자식 요소를 가로로 배치하고 간격을 동일하게 유지 */
+.text__inner {
+    display: flex;
+    flex-wrap: wrap; /* 요소를 여러 줄로 배치 */
+    justify-content: center; /* 가운데 정렬 */
+    gap: 20px; /* 요소 간 간격 */
+    margin: 20px auto; /* 위아래 여백과 양옆 자동 정렬 */
+    max-width: 100%; /* 전체 화면 크기 안에서 조정 */
+    box-sizing: border-box;
+}
+
+
+/* 각 텍스트 블록 */
+.text {
+    width: 32%; /* 3개를 한 줄로 나란히 배치 */
+    margin-bottom: 0; /* 아래 여백 제거 */
+    padding: 20px; /* 내부 패딩 */
+    box-sizing: border-box; /* 패딩 포함한 크기 계산 */
+    border-radius: 10px; /* 둥근 모서리 */
+    transition: background 0.3s;
+    text-align: center; /* 텍스트 중앙 정렬 */
+    background: #f9f9f9; /* 기본 배경색 */
+}
+
+.text:hover {
+    background: #f5f5f5; /* 마우스 호버 시 배경색 변경 */
+}
+
+/* 제목 스타일 */
+.text__title {
+    font-size: 24px;
+    line-height: 1.2;
+    margin-bottom: 10px;
+    white-space: nowrap; /* 제목이 너무 길면 한 줄로 처리 */
+    overflow: hidden;
+    text-overflow: ellipsis;
+    position: relative;
+    font-weight: bold;
+}
+
+/* 설명 스타일 */
+.text__desc {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.6;
+    color: #666;
+    margin-bottom: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* 최대 3줄까지만 표시 */
+    -webkit-box-orient: vertical;
+}
+
+/* 버튼 스타일 */
+.text__btn {
+    font-size: 16px;
+    line-height: 1;
+    text-decoration: underline;
+    color: #007BFF; /* 링크 색상 */
+    cursor: pointer;
+}
+
+/* 섹션 스타일: 전체 간격을 줄이고 배경색 설정 */
+#textType {
+    margin: 20px 0; /* 섹션의 상하 여백 */
+    padding: 20px 0; /* 섹션 내부 여백 */
+    background: #ffffff; /* 섹션 배경색 */
+}
+
+
+
+.additional-content {
+    margin-top: 20px; /* Add spacing above this section */
+    font-family: 'Arial', sans-serif; /* Use a modern sans-serif font */
+    font-size: 16px; /* Base font size */
+    line-height: 1.8; /* Improve readability with generous line spacing */
+    color: #333; /* Darker gray for better readability */
+}
+
+.additional-content h3 {
+    font-size: 22px; /* Increase font size for subheadings */
+    font-weight: bold; /* Make the subheadings bold */
+    color: #222; /* Use a slightly darker color for emphasis */
+    margin-bottom: 10px; /* Space between heading and paragraph */
+}
+
+.additional-content p {
+    margin-bottom: 0px; /* Space between paragraphs */
+    color: #555; /* Softer gray for paragraph text */
+    font-size: 16px; /* Ensure a consistent font size for body text */
+}
