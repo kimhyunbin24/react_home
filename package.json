@@ -1,10 +1,5 @@
 {
   "name": "react-webpage",
-
-  "hompage": "https://github.com/kimhyunbin24/react_dii",
-  "hompage": "https://github.com/kimhyunbin24/react_dii",
-
-
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -47,5 +42,5 @@
       "last 1 safari version"
     ]
   },
-  "homepage": "/static/frontend"
+  "homepage": "https://kimhyunbin24.github.io/react_home"
 }
